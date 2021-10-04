@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #20603d;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+#over {
+  width: 80%;
+  background-color: white;
+}
+
+#Apple {
+  width: 80%;
+  background-color: white;
+}
+
+#Gestopt {
+  width: 80%;
+  background-color: white;
+}
+
+#Robot {
+  width: 80%;
+  background-color: white;
+}
+
+#Bronnen {
+  width: 80%;
+  background-color: white;
+}
+
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+Border {
+    background-color: #20603d;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+a:hover {
+  color:White;
+  font-weight:bold;
+}
+
+h1, h2 {
+  margin-top: 4px;
+  font-family: 'Rubik Beastly', cursive; 
+  font-weight:normal;
+  text-align: center
+}
+
+nav {
+  background-color: #1D1D1F;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+nav div {
+  padding:8px; 
+}
+
+.imagegallery {
+  margin:0;
+  padding:0;
+  width:100%; 
+  display:flex;
+  justify-content:space-between; 
+}
+
+.imagegallery figure {
+  display:block;
+  margin:0;
+  width:30%;
+}
+
+.imagegallery img {
+   width:100%;
+   height:200px;
+   object-fit:cover; 
+}
+
+
+
+header {
+  font-family: 'Rubik Beastly', cursive;
+  font-size:3em;
+  padding-top:10vhx; 
+  color: White;
+  text-align:center;
+  height:30vh;
+  background-image:url(https://cdn.glitch.com/6f3743be-ffb7-4d18-bdaa-888f44153a7d%2F93446320-700e-48e8-b3f5-0a5cf8aa2e21.image.png?v=1633023454402);
+  background-size:cover;
+  background-position:center; 
+}
+
+section {
+    background-color: #20603d;
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(22, 22, 66);
+    font-size: 1.1em;
+    max-width:800px;
+}
+
+footer {
+  background-color: #1D1D1F;
+  height:15vh; 
+  display:flex; 
+  flex-direction:column;
+  text-alighn:center;
+  justify-content:space-between;
+  color: White; 
+  font-size: 0.7em
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    opacity: 0.4;
+}
